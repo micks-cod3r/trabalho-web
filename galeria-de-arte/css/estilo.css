@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Jersey+15&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color: #77B0AA;
+}
+.navbar{
+    height:100px;
+    background:#003C43;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items:center;
+    font-family: "Jersey 15", sans-serif;
+    
+}
+.logo{
+    flex:20%;
+    text-align:left;
+    margin-left:1%;
+}
+.logo h1{
+    font-family: "Jersey 15", sans-serif;
+    color:#77B0AA;
+    font-size:40px;
+
+}
+.menu{
+    flex:70%;
+
+    text-align:right;
+    padding:20px;
+}
+.menu a{
+    color:#77B0AA;
+    text-decoration:none;
+    font-size:20px;
+    padding:20px 16px;
+
+}
+.menu a:hover{
+    color:#135D66;
+    border-top:4px solid #135D66;
+}
+.botao{
+    background:#003C43;
+    border: solid 2px #003C43;
+    
+}
+.corpo{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:left;
+    align-items:center;
+}
+.titulo{
+    font-family: "Jersey 15", sans-serif;
+    font-size: 40px;
+    max-width: 40%;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-left:10%;
+    flex:50%;
+    
+}
+.logomid img{
+    margin-right:10%;
+    flex:30%;
+
+}
+#usuario {
+    width: 30px;
+    height: 30px;
+}
+.container {
+    background:#003C43;
+    display:flex;
+    flex-flow:row wrap;
+    width:auto;
+    height:auto;
+    font-family: "Jersey 15", sans-serif;
+    margin:auto auto auto auto;
+    border-radius: 10px;
+
+}
+.container a{
+    display:inline-block;
+    text-decoration: none;
+    color:#000000;
+    margin-top:5;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right:20px;
+    font-size: 20px;
+    background:#135D66;
+    border-radius: 5px;
+    cursor:pointer;
+    letter-spacing: 1px;
+    padding:2px;
+}
+
+.container a:hover{
+    background-color: #77B0AA;
+    padding: 3px;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+footer{
+    margin-top:200px;
+    max-height:300px;
+    background-image: linear-gradient(180deg,#003C43,#135D66,#77B0AA ,black);
+    text-align: center;
+    border-top:5px solid #135D66;
+
+}
+.rodape{
+    padding:80px;
+    
+}
+.agencia{
+    font-family: "Lobster", sans-serif;
+    font-size:34px;
+    color:white;
+
+}
+
